@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background:url(../imagenes/fondo\ de\ inicio.jpg);
+}
+#encabezado{
+    display:flex;
+    padding: 30px;
+    justify-content: space-between;
+    background-color: rgba(95, 75, 20, 0.432);
+}
+#encabezado .barraNavegadora{
+    display: flex;
+}
+#encabezado .barraNavegadora li{
+    list-style: none;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#encabezado a{
+    text-decoration: none;
+    color: rgb(51, 40, 16);
+}
+#encabezado .oclock{
+    padding-left: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vh;
+}
+#encabezado .barraNavegadora li a{
+    font: bold;
+    font-size: 2vh;
+}
+#pieDePagina{
+    display:flex;
+    padding: 30px;
+    background-color: rgba(95, 75, 20, 0.432);
+    bottom: 0;
+    justify-content: end;
+}
+#pieDePagina .imagenes img{
+    height:5vh;
+}
+#main .relojImg img{
+    height: 50vh;
+}
+#main .relojImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13vh;
+}
